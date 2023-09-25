@@ -107,22 +107,68 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Blv-ae-Lcu">
+                                <rect key="frame" x="20" y="358.66666666666669" width="353" height="124.66666666666669"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="u97-Mr-BK9">
+                                        <rect key="frame" x="-2" y="0.0" width="357" height="31"/>
+                                    </slider>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="52" translatesAutoresizingMaskIntoConstraints="NO" id="Hxg-IJ-dtR">
+                                        <rect key="frame" x="0.0" y="50" width="353" height="20.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5p-6R-5aG">
+                                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqg-lR-QI1">
+                                                <rect key="frame" x="311.66666666666669" y="0.0" width="41.333333333333314" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn7-33-YtD">
+                                        <rect key="frame" x="0.0" y="90.333333333333314" width="353" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Submit Answer"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="u97-Mr-BK9" firstAttribute="centerY" secondItem="Blv-ae-Lcu" secondAttribute="centerY" id="bQQ-io-DE6"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cy-RK-G8s">
+                                <rect key="frame" x="20" y="76" width="353" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kIg-Vz-vgn">
+                                <rect key="frame" x="20" y="798" width="353" height="4"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BWY-P3-Sxb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="BWY-P3-Sxb" firstAttribute="trailing" secondItem="7tt-FH-qIo" secondAttribute="trailing" constant="20" id="3i0-gU-nxo"/>
                             <constraint firstItem="7tt-FH-qIo" firstAttribute="leading" secondItem="BWY-P3-Sxb" secondAttribute="leading" constant="20" id="AZc-eD-eg5"/>
+                            <constraint firstItem="Blv-ae-Lcu" firstAttribute="centerY" secondItem="Xk1-9i-qM4" secondAttribute="centerY" id="Cde-38-Gcq"/>
+                            <constraint firstItem="BWY-P3-Sxb" firstAttribute="bottom" secondItem="kIg-Vz-vgn" secondAttribute="bottom" constant="40" id="SPV-yh-bpT"/>
+                            <constraint firstItem="Blv-ae-Lcu" firstAttribute="leading" secondItem="BWY-P3-Sxb" secondAttribute="leading" constant="20" id="V04-O9-ayy"/>
+                            <constraint firstItem="BWY-P3-Sxb" firstAttribute="trailing" secondItem="Blv-ae-Lcu" secondAttribute="trailing" constant="20" id="VDw-Si-Ils"/>
+                            <constraint firstItem="3cy-RK-G8s" firstAttribute="leading" secondItem="BWY-P3-Sxb" secondAttribute="leading" constant="20" id="Xjy-QB-ynA"/>
                             <constraint firstItem="7tt-FH-qIo" firstAttribute="centerY" secondItem="Xk1-9i-qM4" secondAttribute="centerY" id="YTY-Ly-AIB"/>
                             <constraint firstItem="qXG-Tu-MNg" firstAttribute="leading" secondItem="BWY-P3-Sxb" secondAttribute="leading" constant="20" id="Ytk-Py-zUB"/>
                             <constraint firstItem="BWY-P3-Sxb" firstAttribute="trailing" secondItem="qXG-Tu-MNg" secondAttribute="trailing" constant="20" id="ii8-r9-juO"/>
+                            <constraint firstItem="BWY-P3-Sxb" firstAttribute="trailing" secondItem="3cy-RK-G8s" secondAttribute="trailing" constant="20" id="nj1-vM-OJL"/>
+                            <constraint firstItem="3cy-RK-G8s" firstAttribute="top" secondItem="BWY-P3-Sxb" secondAttribute="top" constant="20" id="osQ-vD-olm"/>
+                            <constraint firstItem="kIg-Vz-vgn" firstAttribute="leading" secondItem="BWY-P3-Sxb" secondAttribute="leading" constant="20" id="pu0-iJ-7xe"/>
+                            <constraint firstItem="BWY-P3-Sxb" firstAttribute="trailing" secondItem="kIg-Vz-vgn" secondAttribute="trailing" constant="20" id="qds-46-afw"/>
                             <constraint firstItem="qXG-Tu-MNg" firstAttribute="centerY" secondItem="Xk1-9i-qM4" secondAttribute="centerY" id="x08-nV-iwA"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="qXG-Tu-MNg"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="H7m-TN-OJ9"/>
                     <connections>
