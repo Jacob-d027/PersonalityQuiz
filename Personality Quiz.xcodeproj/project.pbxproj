@@ -15,6 +15,7 @@
 		F24B44AF2ABDE6DC000555D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24B44AD2ABDE6DC000555D1 /* LaunchScreen.storyboard */; };
 		F24B44B72ABDEC2A000555D1 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B44B62ABDEC2A000555D1 /* QuestionsViewController.swift */; };
 		F24B44B92ABDEC56000555D1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B44B82ABDEC56000555D1 /* ResultViewController.swift */; };
+		F24B44BB2AC1C14B000555D1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B44BA2AC1C14B000555D1 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F24B44B02ABDE6DC000555D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24B44B62ABDEC2A000555D1 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		F24B44B82ABDEC56000555D1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		F24B44BA2AC1C14B000555D1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		F24B44962ABDE6DB000555D1 = {
 			isa = PBXGroup;
 			children = (
+				F24B44BA2AC1C14B000555D1 /* Question.swift */,
 				F24B44A12ABDE6DB000555D1 /* Personality Quiz */,
 				F24B44A02ABDE6DB000555D1 /* Products */,
 			);
@@ -147,6 +150,7 @@
 				F24B44B92ABDEC56000555D1 /* ResultViewController.swift in Sources */,
 				F24B44A72ABDE6DB000555D1 /* ViewController.swift in Sources */,
 				F24B44A32ABDE6DB000555D1 /* AppDelegate.swift in Sources */,
+				F24B44BB2AC1C14B000555D1 /* Question.swift in Sources */,
 				F24B44B72ABDEC2A000555D1 /* QuestionsViewController.swift in Sources */,
 				F24B44A52ABDE6DB000555D1 /* SceneDelegate.swift in Sources */,
 			);
